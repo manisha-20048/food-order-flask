@@ -1,0 +1,160 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    column-gap:70px;
+    border: 1px solid aliceblue;
+    background-color: aliceblue;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+    
+}
+.navone{
+    display: flex;
+    flex-direction: row;
+    column-gap:120px;
+    margin-left:10px;
+    color: aliceblue;
+   
+    
+}
+.navone a{
+    text-decoration: none;
+    border: 1px solid blue;
+    box-shadow: 1px 2px skyblue;
+    background-color: blue;
+    border-radius: 10px;
+    color: aliceblue;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    
+}
+.navtwo{
+    display: flex;
+    flex-direction: row;
+    column-gap:120px;
+    text-decoration: none;
+    justify-content:right;
+    margin-left:10px;
+   
+}
+.navtwo a{
+    text-decoration: none;
+    border: 1px solid blue;
+    box-shadow: 1px 2px skyblue;
+    background-color: blue;
+    border-radius: 10px;
+    color: aliceblue;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    
+}
+
+
+.image div{
+    display:flex;
+    flex-direction:row;
+}
+@media(max-width:576px){
+    .nav{
+    display: flex;
+    flex-direction: column; 
+    row-gap: 30px;  
+}
+.navone{
+    display: flex;
+    flex-direction:column;
+    row-gap:30px
+}
+.navtwo{
+    display: flex;
+    flex-direction:column;
+    row-gap:30px;
+    margin-left: 0;
+}
+.image div{
+    display:flex;
+    flex-direction:column;
+}
+
+
+}
+
+@media(min-width:576px) and (max-width:768px){
+    .nav{
+    display: flex;
+    flex-direction: column; 
+    row-gap: 30px;  
+}
+.navone{
+    display: flex;
+    flex-direction:column;
+    row-gap:30px
+}
+.navtwo{
+    display: flex;
+    flex-direction:column;
+    row-gap:30px;
+    margin-left: 0;
+}
+.image div{
+    display:flex;
+    flex-direction:column;
+    
+}
+
+
+}
+@media(min-width:768px) and (max-width:992px){
+    .nav{
+    display: flex;
+    flex-direction: column; 
+    row-gap: 30px;  
+}
+.navone{
+    display: flex;
+    flex-direction:column;
+    row-gap:30px
+}
+.navtwo{
+    display: flex;
+    flex-direction:column;
+    row-gap:30px;
+    margin-left: 0;
+}
+.image div{
+    display:flex;
+    flex-direction:column;
+    
+}
+
+}
+@media(min-width:992px) and (max-width:1200px){
+    .nav{
+    display: flex;
+    flex-direction: column; 
+    row-gap: 30px;  
+}
+.navone{
+    display: flex;
+    flex-direction:column;
+    row-gap:30px
+}
+.navtwo{
+    display: flex;
+    flex-direction:column;
+    row-gap:30px;
+    margin-left: 0;
+}
+.image div{
+    display:flex;
+    flex-direction:column;
+    
+}
+
+}

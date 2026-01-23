@@ -1,0 +1,46 @@
+.back{
+     background-image: url(https://img.freepik.com/free-photo/people-taking-photos-food_23-2149303524.jpg?semt=ais_hybrid&w=740&q=80);
+    height: 100vh;
+    padding-top:20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    margin-left: 30%;
+    width:30%;
+    row-gap:20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    background-color: aliceblue;
+    align-content: center;
+}
+.form input{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: cadetblue;
+}
+.form h2{
+    text-align: center;
+}
+.form button{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: orangered;
+    font-size: 20px;
+}
+.form label{
+    font-size: 20px;
+}
+.form button:active{
+    color: antiquewhite;
+    background-color: blue;
+}

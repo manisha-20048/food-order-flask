@@ -1,0 +1,47 @@
+.back{
+    background-image: url(https://media.licdn.com/dms/image/v2/D4E12AQFYiC3Dk7DzFQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1693588063433?e=2147483647&v=beta&t=0PUjW2AspvwrxrWmz0ScyRzbRj8k183-cCWL_Tp-2hA);
+    height: 100vh;
+    padding-top:20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    margin-left: 30%;
+    width:30%;
+    row-gap:20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    background-color: aliceblue;
+    align-content: center;
+    margin-top:15%;
+}
+.form input{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: cadetblue;
+}
+.form h1{
+    text-align: center;
+}
+.form button{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: orangered;
+    font-size: 20px;
+}
+.form label{
+    font-size: 20px;
+}
+.form button:active{
+    color: antiquewhite;
+    background-color: blue;
+}
